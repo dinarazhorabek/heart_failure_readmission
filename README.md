@@ -1,17 +1,16 @@
-# Heart Failure Readmission - Predictive analysis
+## Heart Failure Readmission - Predictive analysis
 
 Dataset from [Kaggle](https://www.kaggle.com/datasets/nudratabbas/heart-failure-readmission-and-sdoh-dataset/)
 
 ---
 
-## Overview
+### Overview
 This project builds a predictive model to identify heart failure patients at 
 risk of hospital readmission within 30 days. Early identification of high-risk 
 patients can support clinical decision-making and reduce preventable readmissions.
 
----
 
-## Dataset
+### Dataset
 The dataset contains 3,000 patient records with 16 features covering clinical 
 measurements, medication usage, and social determinants of health (SDoH).
 
@@ -26,9 +25,8 @@ measurements, medication usage, and social determinants of health (SDoH).
 | `distance_to_hospital_km` | Distance to nearest hospital |
 | `readmitted_30d` | Target — 1 if readmitted within 30 days |
 
----
 
-## Key Findings
+### Key Findings
 - The 65% accuracy ceiling is consistent across all models, suggesting the 
   signal in the dataset is genuinely weak — no feature correlates with 
   readmission above 0.19
@@ -37,9 +35,8 @@ measurements, medication usage, and social determinants of health (SDoH).
   at the cost of more false alarms — a worthwhile trade-off in a clinical setting
 - Income level and gender contribute near-zero predictive value
 
----
 
-## Requirements
+### Requirements
 pandas
 numpy
 matplotlib
